@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/original.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.card{
+    margin-right: 30px;
+}
+
+.card img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.card h5{
+    font-weight: bold;
+    font-size: 30px;
+    color: #006400;
+}
+
+.card img{
+    height: 170px;
+}
+
+.card button{
+    margin-left: 237px;
+}

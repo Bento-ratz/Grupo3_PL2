@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reserva</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reservaten.css">
+    </head>
+    <body>
+        
+        <section class = "banner">
+            <h2>RESERVA O TEU CAMPO</h2>
+            <div class = "card-container">
+                <div class = "card-img">
+                    <!-- image here -->
+                </div>
+
+                <div class = "card-content">
+                    <h3>Reserva</h3>
+                    <form>
+                        <div class = "form-row">
+                            <select id="confirmData" name = "days">
+                                <option value = "day-select">Escolhe o dia</option>
+                                <option value = "monday">Segunda</option>
+                                <option value = "tuesday">Terça</option>
+                                <option value = "wednesday">Quarta</option>
+                                <option value = "thursday">Quinta</option>
+                                <option value = "friday">Sexta</option>
+                            </select>
+
+                            <select id="confirmHoraInicio" name = "hours">
+                                <option value = "hour-select">Hora</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">15: 00</option>
+                                <option value = "10">16: 00</option>
+                                <option value = "10">17: 00</option>
+                                <option value = "10">18: 00</option>
+                                <option value = "10">19: 00</option>
+                                <option value = "10">20: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input id="confirmNome" type = "text" placeholder="Nome Completo">
+                            <input id="confirmTelem" type = "text" placeholder="Nº. Telemóvel">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="Quantas pessoas?" min = "1">
+                            <button type="submit" class="btn-link" id="confirmarReserva">Reserva o campo</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="reservas.js"></script>
+    </body>
+</html>

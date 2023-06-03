@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Teko:wght@500&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="stylelog.css">
+        <style>
+            .alert-top {
+              position: fixed;
+              top: 80px;
+              left: 0;
+              right: 0;
+              transform: translateX(80%);
+            max-width: 600px; /* Define a largura máxima desejada */
+            width: 100%; /* Define a largura para ocupar 100% do espaço disponível */
+          }
+          </style>
+    </head>
+    <body>
+        <div class="center">
+            <h1>FieldGuimarães</h1>
+            <form method="post">
+                <div class="txt_field">
+                    <input id="username" type="text" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class="txt_field">
+                    <input id="password" type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn_entrar" id="login">Log in</button>
+                <br>
+                <br>
+                <div class="signup_link">
+                    Not a menber? <a href="signup.html">Sign up</a>
+                </div>
+            </form>
+        </div>
+        <script src="login.js"></script>
+    </body>
+</html>

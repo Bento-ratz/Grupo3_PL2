@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Teko:wght@500&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <link href="style.css" rel="stylesheet">
+        <link 
+        
+        <!--FontAwesome-->
+        <script src="https://kit.fontawesome.com/da1151871c.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+
+        <title>FieldGuimarães</title>
+        <script type="module" src="localstorage/localStorage.js"></script>
+    </head>
+    <body>
+        <header id="home">
+            <div class="center">
+                <div class="logo">
+                    <h2>FieldGuimarães</h2>
+                </div><!--logo-->
+                <div class="menu">
+
+                    <a href="#home" onclick="handleScrollToSection(event, 'home')">Home</a>
+
+                    <a href="#campos" onclick="handleScrollToSection(event, 'campos')">Campos</a>
+                    
+                    <a href="#segundo" onclick="handleScrollToSection(event, 'segundo')">Contact us</a>
+
+                    <a href="#testimonials" onclick="handleScrollToSection(event, 'testimonials')">Comment</a>
+
+                    <a class="btn-menu" href="login.html">
+                        Login
+                    </a>
+                </div><!--menu-->
+            </div><!--center-->
+        </header>
+        <hr size="10" color="#006400" width="100%" align="center" noshade><!--linha-->
+        <section class="main">
+            <div class="center">
+                <div class="main_cta">
+                    <h2>Alugar campos com a FieldGuimarães é limpinho, limpinho!</h2>
+                    <br>
+                    <br>
+                    <button onclick="scrollToSection('campos')">Reservar</button>
+                </div><!--main_cta-->
+            </div><!--center-->
+        </section><!--main-->
+        <hr size="7" color="#006400" width="100%" align="center" noshade><!--linha-->
+        <section class="fundo">
+            <br>
+            <div id="mod" id="primeiro">
+                <br>
+                <br>
+                <div id ="campos">
+                    <div class="campo-1">
+                        <a href="camposfut.html">Futebol</a>
+                    </div><!--campo-1-->
+                    <div class="campo-2">
+                        <a href="campospad.html">Padel</a>
+                    </div><!--campo-2-->
+                    <div class="campo-3">
+                        <a href="camposten.html">Ténis</a>
+                    </div><!--campo-3-->
+                </div><!--campos-->
+            </div><!--mod-->
+        </section><!--fundo-->
+        <br>
+        <br>
+        <br>
+        <hr size="6" color="#006400" width="100%" align="center" noshade><!--linha-->
+        <section class="main1">
+            <div class="main2">
+            <div class="center1" id="segundo">
+            <h2>CONTACT  US &#x1F525;</h2>
+            <hr size="6" color="#006400" width="100%" align="center" noshade><!--linha-->
+            <br>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Introduza o seu nome" autocomplete="off">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Introduza o seu email" autocomplete="off">
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Introduza a sua mensagem"></textarea>
+                <button type="submit">Enviar &#x1F680;</button>
+                <input type="hidden" name="accessKey" value="d65e99db-0525-483c-8196-bc1694a2ea7e">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Field/obrigado.html">
+            </form>
+            </div><!--center1-->
+        </div><!--main2-->
+        </section><!--main1-->
+
+        <section id="rodape">
+        <div class="cor">
+            <br>
+            <div class="alinhar">
+                    <div class="modalidades">
+                        <h2>3</h2>
+                        <a>Modalidades</a>
+                    </div><!--modalidades-->
+                    <div class="disponi">
+                        <h2>18</h2>
+                        <a>Campos Disponiveis</a>
+                    </div><!--disponi-->
+                    <div class="contad">
+                    <h2>2</h2>
+                    <a>Campos Indoor</a>
+                    </div><!--contad-->
+            </div><!--alinhar-->
+        </div><!--cor-->
+        </section>
+
+        <section id="testimonials">
+            <br>
+            <br>
+            <!--heading-->
+            <div class="testimonials-heading">
+                <span>COMMENTS</span>
+                <br>
+                <h1>CLIENTS  SAYS</h1>
+            </div>
+            <br>
+            <br>
+            <!--testimonials-box-conteiner-->
+            <div class="testimonials-box-container">
+                <!--box 1-->
+                <div class="testimonials-box">
+                    <!--top-->
+                    <div class="box-top">
+                        <!--profile-->
+                        <div class="profile">
+                            <!--img-->
+                            <div class="profile-img">
+                                <img src="img/111.jpg" />
+                            </div>
+                            <!--name and username-->
+                            <div class="name-user">
+                                <strong>Rafael Branco</strong>
+                                <span>@rafaelbranco00</span>
+                            </div>
+                        </div>
+                        <!---reviews-->
+                        <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><!--vazia-->
+                        </div>
+                    </div>
+                    <!--comments-->
+                    <div class="client-comment">
+                        <p>Simples, rápido e prático! É o que se quer. Em 2 minutos vejo os campos disponíveis e faço uma reserva.</p>
+                    </div>
+                </div>
+
+                                <!--box 2-->
+                                <div class="testimonials-box">
+                                    <!--top-->
+                                    <div class="box-top">
+                                        <!--profile-->
+                                        <div class="profile">
+                                            <!--img-->
+                                            <div class="profile-img">
+                                                <img src="img/222.jpg" />
+                                            </div>
+                                            <!--name and username-->
+                                            <div class="name-user">
+                                                <strong>Tomás Rodrigues</strong>
+                                                <span>@tomasrodrigues</span>
+                                            </div>
+                                        </div>
+                                        <!---reviews-->
+                                        <div class="reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i><!--vazia-->
+                                        </div>
+                                    </div>
+                                    <!--comments-->
+                                    <div class="client-comment">
+                                        <p>Complexos desportivos bem preservados e com qualidade! &#128076;</p>
+                                    </div>
+                                </div>
+
+                                                <!--box 3-->
+                <div class="testimonials-box">
+                    <!--top-->
+                    <div class="box-top">
+                        <!--profile-->
+                        <div class="profile">
+                            <!--img-->
+                            <div class="profile-img">
+                                <img src="img/333.jpg" />
+                            </div>
+                            <!--name and username-->
+                            <div class="name-user">
+                                <strong>Bento Teixeira</strong>
+                                <span>@teixeirabento</span>
+                            </div>
+                        </div>
+                        <!---reviews-->
+                        <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--vazia-->
+                        </div>
+                    </div>
+                    <!--comments-->
+                    <div class="client-comment">
+                        <p>Fácil e rápido! &#128539;</p>
+                    </div>
+                </div>
+
+                                <!--box 4-->
+                                <div class="testimonials-box">
+                                    <!--top-->
+                                    <div class="box-top">
+                                        <!--profile-->
+                                        <div class="profile">
+                                            <!--img-->
+                                            <div class="profile-img">
+                                                <img src="img/444.jpg" />
+                                            </div>
+                                            <!--name and username-->
+                                            <div class="name-user">
+                                                <strong>Francisca Ventura</strong>
+                                                <span>@franciscaventura</span>
+                                            </div>
+                                        </div>
+                                        <!---reviews-->
+                                        <div class="reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i><!--vazia-->
+                                        </div>
+                                    </div>
+                                    <!--comments-->
+                                    <div class="client-comment">
+                                        <p>Facilmente vejo os vários campos disponíveis de Padel e marco a meu jogo. Indispensável.</p>
+                                    </div>
+                                </div>
+            </div>
+            <br>
+        </section><!---testimonials-->
+        <br>
+        <br>
+        <br>
+        <div style="height:100px;"></div><!--efeito de imagem-->
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/16544f2866.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+            <li><a href="https://www.facebook.com/?stype=lo&jlou=AfehPISZohcicsWL8rz5FQFijlIFniSvwLPNYDTx4GD32SoKtKLJcd3z3oBiiTSM2oYhhjQohlQUUVXPyJpWcvMAjEhrfZQBzBBIG0ZVrvFq8g&smuh=28982&lh=Ac83VoWawiJLV9KdkOM"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://twitter.com/?lang=pt"><i class="fa-brands fa-square-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/rafael-branco-607434173/"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        <ul class="menu6">
+            <li><a href="#home" onclick="handleScrollToSection(event, 'home')">Home</a></li>
+            <li><a href="#campos" onclick="handleScrollToSection(event, 'campos')">Campos</a></li>
+            <li><a href="#segundo" onclick="handleScrollToSection(event, 'segundo')">Contact us</a></li>
+            <li><a href="#testimonials" onclick="handleScrollToSection(event, 'testimonials')">Comment</a></li>
+        </ul>
+        <p>Copyright © FieldGuimarães Ltd. Todos os direitos reservados.</p>
+    </footer>
+</html>
